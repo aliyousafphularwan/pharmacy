@@ -1,0 +1,34 @@
+label{
+    padding: 10px 0px;
+}
+a, li, textarea{
+    text-decoration: none;
+    list-style: none;
+    resize: none;
+}
+.text-white{
+    color: #ffffff;
+}
+#logmit{
+    margin-top: 15px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+.sidebar-main{
+    height: 100vh;
+}
+
+.home-top-boxes{
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.login-main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
