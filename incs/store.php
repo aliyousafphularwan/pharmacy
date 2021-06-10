@@ -1,5 +1,11 @@
 <div class="container">
 
+    <div class="row">
+        <div class="">
+            <div class="page-title"> <h4 class="bg-info p-3 text-white mt-2 page-title-text"> Store </h4> </div>
+        </div>
+    </div>
+
     <form action="" method="post">
     
         <div class="container">
@@ -29,6 +35,9 @@
                     </div>
                 </div>
             </div>
+
+            <button type="submit" class="btn btn-primary mt-2 mb-2 float-right" id="save-store"> <i class="fa fa-save mr-2"></i> save </button>
+
         </div>
 
     </form>

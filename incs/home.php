@@ -2,7 +2,7 @@
 
     <div class="row">
 
-        <div class="col-md-4 text-center"> 
+        <div class="col-md-4 text-center rounded-3"> 
             <div class="home-top-boxes bg-primary p-2">
                 <h4 class="text-white">Doctor</h4> 
                 <p class="text-white">0</p>
