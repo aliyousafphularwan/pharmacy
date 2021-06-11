@@ -17,3 +17,7 @@
     </div>
 
 </div>
+
+<div class="message" id="message">
+    <p> Success or Error Message display here </p>
+</div>

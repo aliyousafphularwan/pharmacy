@@ -10,6 +10,6 @@
     $tdate = $_POST['tdate'];
     $doc = $_POST['doc'];
 
-    echo $name . "\n" . $father . "\n" . $gender . "\n" . $age . "\n" . $adrs . "\n" . $type . "\n" . $lstcu . "\n" . $tdate . "\n" . $doc;
+    
 
 ?>

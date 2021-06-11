@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+    // $("#message").css('display', 'none');
+
     $('.hid-input').css('display', 'none');
 
     // change patient type weather he/sher is new or old
@@ -78,14 +80,29 @@ $(document).ready(function(){
                 },
                 success: function(data){
     
-                    console.log(data);
-    
+                    if(data == "1"){
+
+                        $("#message p").css('background', '#1eae98');
+                        $("#message p").text("success message");
+                        $("#message p").slideDown();
+                        $("#message p").delay(3000);
+                        $("#message p").slideUp();
+                    }else{
+                        $("#message p").css('background', '#f54748');
+                        $("#message p").text("error message");
+                        $("#message p").slideDown();
+                        $("#message p").delay(3000);
+                        $("#message p").slideUp();
+                    }
+                    
                 }
     
             });
         });
 
     }
+
+
 
     change_ptype();
     add_patient();

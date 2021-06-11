@@ -36,5 +36,16 @@ a, li, textarea{
 .page-title{
     border-left: solid 5px #f00;
 }
-.page-title-text {
+
+.message p{
+    position: absolute;
+    background: #f00;
+    bottom: 0;
+    right: 0;
+    padding: 10px 20px;
+    margin-right: 20px;
+    color: #fff;
+    border: solid 2px #cdcdcd;
+    border-radius: 10px;
+    display: none;
 }
