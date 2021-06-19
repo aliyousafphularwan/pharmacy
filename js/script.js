@@ -4,6 +4,14 @@ $(document).ready(function(){
 
     $('.hid-input').css('display', 'none');
 
+    //hoa
+    //trans
+    //rpts
+
+    $('#hoa').css('display','none');
+    $('#trans').css('display','none');
+    $('#rpts').css('display','none');
+
     // change patient type weather he/sher is new or old
     function change_ptype(){
 
@@ -102,7 +110,32 @@ $(document).ready(function(){
 
     }
 
+    /** 
+     * hide show accounts divs
+     * show-head
+     * show-trans
+     * show-rpts
+     * 
+     * */ 
 
+    $('#show-head').on('click', function(){
+        $('#hoa').toggle();
+        $('#trans').css('display','none');
+        $('#rpts').css('display','none');
+    });
+
+    $('#show-trans').on('click', function(){
+        $('#hoa').css('display','none');
+        $('#trans').toggle();
+        $('#rpts').css('display','none');
+    });
+
+    $('#show-rpts').on('click', function(){
+        $('#hoa').css('display','none');
+        $('#trans').css('display','none');
+        $('#rpts').toggle() ;
+    });
+    
 
     change_ptype();
     add_patient();

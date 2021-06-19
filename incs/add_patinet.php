@@ -10,6 +10,8 @@
     $tdate = $_POST['tdate'];
     $doc = $_POST['doc'];
 
+    require "incs/dbc.php";
+
     
 
 ?>
